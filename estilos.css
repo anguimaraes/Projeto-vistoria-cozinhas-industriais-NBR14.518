@@ -1,0 +1,1154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h6{
+	color: red;
+}
+h2{
+	text-align: center;
+	margin-top: -20px;
+	font-size: 40px;
+}
+h2#nomeSistema{
+	text-align: left;
+	margin-left: -450px;
+	margin-top: -100px;
+}
+h2#nomeSistemaLogin{
+	text-align: left;
+	margin-left: -450px;
+	margin-top: -170px;
+
+}
+
+h3{
+	text-align: center;
+	margin-top: 50px;
+}
+
+body{
+	background-image: url("imagens/fundo2.jpg");
+	background-size: cover;
+	font-family: arial;
+	color:  white;
+}
+
+input#login, input#telogin{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.01);
+	color: white;
+	outline: none;
+}
+
+ input#login1{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.01);
+	color: white;
+	outline: none;
+	margin-top: 80px;
+}
+
+.login2{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.01);
+	color: white;
+	outline: none;
+}
+
+div#corpo-form{
+	width: 420px;
+	margin: 150px auto 0px auto; 
+}
+
+div#corpo-form-Cad{
+	width: 420px;
+	margin: 20px auto 0px auto; 
+	margin-top: -150px;
+}
+
+div#corpo-form h1, div#corpo-form-Cad h1{
+	text-align: center;
+	padding: 20px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+input[type=submit]{
+	display: inline-block;
+	background-color: #696969;
+	border: none;
+	cursor: pointer;
+	width: 200px;
+	margin-right: 5px;
+}
+
+
+div#msg-sucesso{
+	width: 400px;
+	margin: 15px auto;
+	padding: 10px;
+	background-color:rgba(50,205,50,.3);
+	border: 1px solid rgb(34,139,34);
+	margin-top: 100px;
+
+}
+
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color:rgba(250,128,114,.3);
+	border: 1px solid rgb(165,42,42);
+	margin-top: 100px;
+
+}
+
+button#botaoVoltar{
+	display: inline-block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 160px;
+	margin-top: -65px;
+	float: left;
+	cursor: pointer;
+
+}
+
+button#botaoPesquisar{
+	display: inline-block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 370px;
+	margin-top: -65px;
+	float: left;
+	cursor: pointer;
+
+}
+
+input#botaoCadLogin{
+	display: inline-block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: -50px;
+	margin-top: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+input#botaoCadLogin1{
+	display: inline-block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 10px;
+	margin-top: 20px;
+	float: left;
+	cursor: pointer;
+
+}
+
+div#footer{
+
+    background-color: #191970;
+    margin-top: 182px;
+    padding: 70px;
+    width: 1200px;
+    height: 90px;
+
+}
+
+div#footer1{
+    display: block;
+    margin-right: 200px;
+    float: left;
+    margin-top: -60px;
+    
+}
+
+div#footer2{
+
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: -80px;
+    float: left;
+
+}
+div#footer3{
+
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: -150px;
+    float: right;
+
+}
+
+b#email{
+	float: left;
+
+}
+
+p#email{
+	margin-top: 15px;
+	float: left;
+	padding: 8px;
+
+}
+
+p#email2{
+	float: left;
+	padding: 8px;
+	margin-left: 60px;
+}
+
+
+div#copyright{
+
+	margin-top: -20px;
+	float: left;
+	margin-left: 5px;
+}
+
+div#botoesPrincipais{
+
+ margin: 0 auto;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.01);
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin-top: 10px;
+    box-shadow: 0 0 20px #333;
+    cursor: pointer;
+}
+
+
+button#botoesIniciais{
+
+	background-color: #696969;
+	border: none;
+	cursor: pointer;
+	width: 200px;
+	margin-right: 5px;
+	height: 60px;
+	display: block;
+	margin: 20px;
+	text-align: center;
+	border-radius: 30px;
+	padding: 1em;
+	cursor: pointer;
+	
+}
+
+.threed:hover{
+        box-shadow:
+                1px 1px #000000,
+                2px 2px #000000,
+                3px 3px #000000;
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+}
+
+
+div#acoes{
+
+	background-color: rgba(255, 255, 255, 0.01);
+	margin-left: 1050px;
+	width: 220px;
+	height: 100px;
+	margin-top: -150px;
+	border-radius: 20px;
+	border: 1px solid #CCC;
+
+}
+
+h3#acoes{
+
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+.botaoAcoes{
+	padding: 5px;
+	text-align: center;
+	margin: 5px;
+	border-radius: 30px;
+	background-color: #696969;
+	  width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+form#botao-pesquisa{
+
+    margin-top: 100px;
+   display: inline-block;
+   padding: 20px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+   width: 500px;
+   background-color: #ADD8E6;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    overflow: hidden;
+    border-color: #000;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+       .cadastro {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 850px;
+    height: 700px;
+    background-color: white;
+    color: black;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+    
+}
+
+       .cadastroVistoria {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 850px;
+    height: 900px;
+    background-color: white;
+    color: black;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+}
+
+       .escolhaShop {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+}
+
+       .escolhaRelatorio {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 850px;
+    height: 800px;
+    background-color: white;
+    color: black;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+}
+
+h3#cadastroShop{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.esquerda{
+    display: inline-block;
+}
+
+.direita{
+    display: inline-block;
+    
+}
+
+  input, select{
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+
+   
+}
+
+    input{
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+div{
+
+	margin: 10px;
+}
+
+.fade
+{
+        opacity:0.8;
+}
+.fade:hover
+{
+        opacity:1.0;
+}
+
+button#botaoCadastro{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 80px;
+	float: left;
+	cursor: pointer;
+}
+
+button#botaoCadastroUs{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 130px;
+	float: left;
+	cursor: pointer;
+}
+
+button#botaoAvancar{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 80px;
+	float: left;
+	cursor: pointer;
+}
+
+button#botaoCancelar{
+
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 80px;
+	float: left;
+}
+
+button#botaoEditarVistoria{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+
+
+button#botaoCancelarVistoria{
+
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+	cursor: pointer;
+
+}
+
+button#botaoPesquisa{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 40px;
+	float: left;
+	cursor: pointer;
+
+}
+
+button#botaoEdita{
+
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 100px;
+	margin-top: 40px;
+	float: left;
+	cursor: pointer;
+}
+
+button#botaoRelatorio{
+
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 510px;
+	margin-top: -65px;
+	float: left;
+	cursor: pointer;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+table#titulo{
+
+    background-color: #A9A9A9;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: black;
+    width: 150px;
+}
+
+table#corpo{
+
+    border: none;
+    background-color: #ADD8E6;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: black;
+    
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin-top: -8px;
+  background-color: white;
+}
+
+td {
+  border: 1px solid black;
+  border-left-width: 0;
+  min-width: 150px;
+  height: 18px;
+  border: none;
+  max-width: 150px;
+  overflow: hidden;
+  padding-left: 40px;
+  padding: 1em;
+}
+
+
+button#botaoVoltarPesquisa{
+	display: block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 5px;
+	margin-top: 30px;
+	float: left;
+	cursor: pointer;
+
+}
+
+button#botaoVoltarPesquisaRel{
+	display: block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 20px;
+	margin-top: 200px;
+	float: left;
+	cursor: pointer;
+
+}
+
+#botaoPDF{
+	margin-top: 10px;
+	float: left;
+	margin-left: 330px;
+}
+
+#h4PDF{
+	color: red;
+	margin-top: -250px;
+	margin-left: -600px;
+	text-decoration: underline;
+}
+
+button#botaoVoltarPesquisa{
+	display: block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 5px;
+	margin-top: 30px;
+	float: left;
+	cursor: pointer;
+
+}
+
+button#botaoVoltarPesquisaRelGen{
+	display: block;
+	height: 55px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: -120px;
+	margin-top: 150px;
+	float: left;
+	cursor: pointer;
+
+}
+
+#botaoPDFGen{
+	margin-top: 10px;
+	float: left;
+	margin-left: 330px;
+}
+
+#h4PDFGen{
+	color: red;
+	margin-top: -250px;
+	margin-left: -600px;
+	text-decoration: underline;
+}
+
+
+button#botaoRelGen {
+	display: block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 5px;
+	margin-top: 30px;
+	float: left;
+	cursor: pointer;
+
+}
+
+h2#consulta{
+
+	margin-top: 20px;
+}
+
+form#botao-pesquisa{
+
+    margin-top: -40px;
+   display: inline-block;
+   padding: 20px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+   width: 300px;
+   background-color: #ADD8E6;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    overflow: hidden;
+    border-color: #000;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+h2#editar{
+
+	margin-top: 20px;
+}
+
+table#tituloEditar{
+
+    background-color: #A9A9A9;
+    font-family: sans-serif;
+    margin-left: 3px;
+    color: black;
+    margin-top: 30px;
+}
+
+table#corpoEditar{
+
+    border: none;
+    background-color: #ADD8E6;
+    font-family: sans-serif;
+    margin-left: 3px;
+    color: black;
+    
+}
+
+table#corpoEditar:nth-child(even){
+	background-color: #FFE4C4;
+}
+
+table#corpo:nth-child(odd){
+	background-color: #FFE4C4;
+}
+
+button#botaoEditar{
+
+    background-color: #7CFC00;
+    font-family: sans-serif;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+button#botaoExcluir{
+
+    background-color: #FF0000;
+    font-family: sans-serif;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+button#botaoRelInd{
+
+    background-color: #00BFFF;
+    font-family: sans-serif;
+    padding: 0.5em;
+    cursor: pointer;
+    width: 143px;
+}
+
+button#botaoConfirmar{
+
+    background-color: #00FF00;
+    font-family: sans-serif;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+button#botaoAgendamento{
+
+    background-color: #0265F0;
+    font-family: sans-serif;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+
+
+button#botaoExcluirUsuario{
+
+    background-color: #FF0000;
+    font-family: sans-serif;
+    padding: 0.5em;
+    margin-left: 600px;
+    cursor: pointer;
+}
+
+h3#edicaoVistoria{
+
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: -380px;
+    margin-top: -400px;
+    margin-bottom: 50px;
+}
+
+.container2 img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    float: all;
+}
+
+.containerLogin img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: -380px;
+    margin-top: -400px;
+    margin-bottom: 120px;
+    float: all;
+}
+
+
+
+.meio{
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+input#numero, 
+input#shoppingVistoria, 
+input#lojaVistoria, 
+input#nomeVistoriador, 
+input#dataVistoria,
+input#coifaRel,
+input#lavadorRel,
+input#dutoRel,
+input#exaustorRel,
+input#centralRel,
+input#co2Rel,
+input#saponaceoRel,
+input#damperRel,
+input#desarmeExRel{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-weight: bold;
+}
+
+.relNum{
+	margin-left: 200px;
+	float: left;
+}
+
+.relShop{
+	margin-top: -500px;
+	margin-left: 450px;
+	float: left;
+	color: black;
+}
+
+.relData{
+	margin-top: -300px;
+	margin-left: 450px;
+	float: left;
+	color: black;
+}
+
+select#shoppingVistoria{
+	margin-top: -20px;
+	margin-left: 5px;
+
+}
+
+label#lblNumero{
+	margin-left: 170px;
+}
+
+select#numero{
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+label#lblData{
+	color: black;
+	float: left;
+	margin-top: -300px;
+	margin-left: 430px;
+}
+
+select#dataVistoria{
+	margin-top: -285px;
+	margin-left: 530px;
+	float: left;
+}
+
+label#lblShop{
+	margin-top: -515px;
+	margin-left: 420px;
+	float: left;
+	color: black;
+}
+
+select#shoppingVistoriaRel{
+	margin-top: -500px;
+	margin-left: 520px;
+	float: left;
+
+}
+
+button#botaoRelNum{
+	display: block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 270px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+button#botaoRelShop{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 520px;
+	margin-top: -460px;
+	cursor: pointer;
+	float: left;
+}
+
+button#botaoRelData{
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 530px;
+	margin-top: -250px;
+	cursor: pointer;
+	float: left;
+}
+
+button#botaoCancelarRel{
+
+	display: inline-block;
+	height: 55px;
+	width: 300px;
+	margin: 10px;
+	border-radius: 30px;
+	border: none;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: #696969;
+	color: white;
+	outline: none;
+	margin-left: 530px;
+	margin-top: 20px;
+	float: left;
+}
+
+span#exibeNome{
+float: right;
+margin-right: 100px;
+margin-top: -120px;
+font-size: 20px;
+}
+
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.olho {
+  cursor: pointer;
+  left: 850px;
+  top: 305px;
+  position: absolute;
+  width: 20px;
+  color: black;
+
+}
+
+p#obsSenha{
+	float: right;
+	margin-top: 20px;
+	color: red;
+}
